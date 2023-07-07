@@ -1,5 +1,6 @@
 # how to run the code?
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 python .\script.py
 python .\script2.py
 ```
