@@ -4,7 +4,9 @@ pip install -r requirements.txt
 python .\script.py
 python .\script2.py
 ```
-# your results will be saved in result.csv and result2.csv
+
+
+your results will be saved in result.csv and result2.csv
 
 
 # The problem states that we need to get all the product name, price, url, description of different products on the Amazon page.
