@@ -61,7 +61,7 @@ for i in range(20):
         products.loc[len(products)] = new_row
 
     # go to next page
-    if i<4:
+    if i<19:
         time.sleep(5)
         next_button = driver.find_element(by="xpath",value=next_button_xpath)
         next_button.click()
