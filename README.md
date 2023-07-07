@@ -1,8 +1,8 @@
 # how to run the code?
-pip install -r requirements.txt
+```pip install -r requirements.txt
 python .\script.py
 python .\script2.py
-
+```
 # your results will be saved in result.csv and result2.csv
 
 
