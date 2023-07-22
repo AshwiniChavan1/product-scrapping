@@ -1,4 +1,4 @@
-# how to run the code?
+# How to run the code?
 ```
 pip install -r requirements.txt
 python .\script.py
@@ -7,7 +7,11 @@ python .\script2.py
 
 
 your results will be saved in result.csv and result2.csv
+The first script completes the first task in the assignement that is it fetch all the list of products from the 20 pages of link and put the products in result.csv file in the following columns format: 
+"Product name", "Product URL", "Product Price", "Rating", "Number of Reviews"
 
+The second script will complete the second task in the assignment it will open the results from first sheet and open each product url and put the data of each product in result2.csv file in following columns format: 
+"Description", "ASIN", "Product Description", "Manufacturer"
 
 # The problem states that we need to get all the product name, price, url, description of different products on the Amazon page.
 
