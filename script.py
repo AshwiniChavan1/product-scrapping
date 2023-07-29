@@ -33,7 +33,7 @@ for i in range(20):
     prods = driver.find_elements(by="xpath", value=products_xpath)
     print(len(prods))
     # for each product in the page, get details
-    for prod in prods:
+    for prod in filter(lambda e: e.is_displayed(),prods):
         prod_name = prod.find_element(by="xpath", value=relative_name_xpath)
         prod_price = prod.find_element(by="xpath", value=relative_price_xpath)
         prod_price = prod_price.text
